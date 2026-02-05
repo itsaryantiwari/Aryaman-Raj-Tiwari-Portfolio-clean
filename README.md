@@ -2,13 +2,12 @@
 
 A modern, interactive, and performance-focused personal portfolio website built to showcase my work, skills, and experience as a **Data Analyst & Developer**.
 
-Live visuals, smooth animations, and a 3D character because static websites are boring.  
+Live visuals, smooth animations, and a 3D character, because static websites are boring.  
 
 ---
 
 ## 🌐 Live Preview
-👉 *(Add live link here once deployed)*  
-Example: https://aryamanrajtiwari.in
+👉 https://aryamanrajtiwari.in
 
 ---
 
