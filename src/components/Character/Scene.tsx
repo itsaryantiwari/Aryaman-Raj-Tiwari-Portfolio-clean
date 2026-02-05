@@ -10,9 +10,10 @@ import {
   handleTouchMove,
 } from "./utils/mouseUtils";
 import setAnimations from "./utils/animationUtils";
-import setProgress from "../Loading";
+import { useLoading } from "../../context/LoadingContext";
 
 const Scene = () => {
+  const { setLoading } = useLoading();
   const canvasDiv = useRef<HTMLDivElement | null>(null);
   const hoverDivRef = useRef<HTMLDivElement | null>(null);
   const sceneRef = useRef(new THREE.Scene());
@@ -52,11 +53,14 @@ const Scene = () => {
 
     const light = setLighting(scene);
     const { loadCharacter } = setCharacter(renderer, scene, camera);
-    setProgress({ percent: 0 });
+    setLoading(0);
 
     // ---------------- Load Character ----------------
     loadCharacter().then((gltf) => {
-      if (!gltf) return;
+      if (!gltf) {
+        setLoading(100);
+        return;
+      }
 
       const animations = setAnimations(gltf);
       mixer = animations.mixer;
@@ -79,6 +83,7 @@ const Scene = () => {
 
       const onResize = () => handleResize(renderer, camera, canvasDiv, model);
       window.addEventListener("resize", onResize);
+      setLoading(100);
     });
 
     // ---------------- Mouse / Touch ----------------
@@ -158,7 +163,7 @@ const Scene = () => {
     };
 
     /// eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [setLoading]);
 
   return (
     <div className="character-container">
