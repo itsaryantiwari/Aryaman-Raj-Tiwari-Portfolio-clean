@@ -4,7 +4,9 @@ import {
   useState,
 } from "react";
 import Loading from "../components/Loading";
-import { LoadingContext } from "./LoadingContext";
+import { LoadingContext, useLoading } from "./LoadingContext";
+
+export { useLoading };
 
 export const LoadingProvider = ({ children }: PropsWithChildren) => {
   const [isLoading, setIsLoading] = useState(true);
