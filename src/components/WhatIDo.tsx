@@ -91,9 +91,7 @@ const WhatIDo = () => {
               <h4>Description</h4>
               <p>
                 Building responsive, accessible web interfaces with modern
-                frameworks and performance-friendly UI effects with creating reliable
-                APIs, integrating AI features, and deploying scalable solutions
-                with cloud infrastructure.
+                frameworks and performance-friendly UI effects with integrated AI features.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -132,8 +130,7 @@ const WhatIDo = () => {
               <h4>Description</h4>
               <p>
                 Creating data-driven insights and visualizations with Python, SQL, and
-                BI tools, leveraging cloud platforms for scalable data processing, and
-                integrating AI for predictive analytics and automation.
+                BI tools, for scalable data processing, and integrating AI for predictive analytics and automation.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

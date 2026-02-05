@@ -35,7 +35,7 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Intern - Data And Market Intelligence</h4>
-                <h5>Mobility Aftermarket — Bangalore</h5>
+                <h5>Mobility Aftermarket Pvt. Ltd. — Bangalore</h5>
               </div>
               <h3>2024-25</h3>
             </div>
@@ -50,26 +50,25 @@ const Career = () => {
               <div className="career-role">
                 <h4>Research and Development Intern</h4>
                 <h5>
-                  Indian Institute of Technology (IIT Bombay) Mumbai,
-                  Maharashtra
+                  Indian Institute of Technology     
+                    (IIT Bombay) - Mumbai
                 </h5>
               </div>
               <h3>2024</h3>
             </div>
             <p>
-              Contributed to the innovative design and fabrication of a
+              Contributed to the innovative design and fabrication of
               high-precision, sub-micron linear stage for an ultra-high-speed
-              micro milling center and also implemented advanced digital
+              micro milling center, also implemented advanced digital
               filtering techniques to enhance real-time chatter detection during
-              micro milling, significantly improving process stability and
-              performance
+              micro milling.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Summer Intern</h4>
-                <h5>IBM — Bangalore, Karnataka</h5>
+                <h5>IBM India — Bangalore</h5>
               </div>
               <h3>2023</h3>
             </div>
