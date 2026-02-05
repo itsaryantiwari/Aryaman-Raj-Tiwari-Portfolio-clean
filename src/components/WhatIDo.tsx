@@ -87,7 +87,7 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONTEND & BACKEND</h3>
+              <h3>FRONT & BACKEND</h3>
               <h4>Description</h4>
               <p>
                 Building responsive, accessible web interfaces with modern
@@ -129,8 +129,8 @@ const WhatIDo = () => {
               <h3>DATA ANALYSIS</h3>
               <h4>Description</h4>
               <p>
-                Creating data-driven insights and visualizations with Python, SQL, and
-                BI tools, for scalable data processing, and integrating AI for predictive analytics and automation.
+                Creating data-driven insights and visualizations with Python, SQL, BI tools,
+                and integrating AI for predictive analytics and automation.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

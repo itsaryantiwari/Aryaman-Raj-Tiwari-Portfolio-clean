@@ -10,9 +10,7 @@ const About = () => {
           with a knack for crafting seamless digital experiences 
           and uncovering insights from data. My expertise extends to 
           data analysis, where I leverage tools like Python, SQL, and Tableau
-          to extract meaningful insights and drive informed decision-making. 
-          
-          Let's connect and explore how I can contribute to your next project!
+          to extract meaningful insights and drive informed decision-making.
         </p>
       </div>
     </div>
