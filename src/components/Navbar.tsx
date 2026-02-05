@@ -3,6 +3,10 @@ import HoverLinks from "./HoverLinks";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import "./styles/Navbar.css";
 
+let smootherInstance: ScrollSmoother | null = null;
+
+export const getScrollSmoother = () => smootherInstance;
+
 const Navbar = () => {
   useEffect(() => {
     const smoother = ScrollSmoother.create({
@@ -14,6 +18,8 @@ const Navbar = () => {
       autoResize: true,
       ignoreMobileResize: true,
     });
+
+    smootherInstance = smoother;
 
     smoother.scrollTop(0);
     smoother.paused(true);
@@ -30,9 +36,17 @@ const Navbar = () => {
         }
       });
     });
-    window.addEventListener("resize", () => {
+    const handleResize = () => {
       ScrollSmoother.refresh(true);
-    });
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      smoother.kill();
+      smootherInstance = null;
+    };
   }, []);
   return (
     <>
