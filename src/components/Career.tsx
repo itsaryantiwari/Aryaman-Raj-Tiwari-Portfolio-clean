@@ -17,8 +17,7 @@ const Career = () => {
               <div className="career-role">
                 <h4>Co-Founder</h4>
                 <h5>
-                  Sanraksh Foundation (Non-Profit Organisation) — New Delhi,
-                  India
+                  Sanraksh Foundation (Non-Profit Organisation)
                 </h5>
               </div>
               <h3>NOW</h3>
@@ -34,8 +33,8 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Intern - Data And Market Intelligence</h4>
-                <h5>Mobility Aftermarket Pvt. Ltd. — Bangalore</h5>
+                <h4>Intern - Data & Market Intelligence</h4>
+                <h5>Mobility Aftermarket Pvt. Ltd.</h5>
               </div>
               <h3>2024-25</h3>
             </div>
@@ -50,8 +49,7 @@ const Career = () => {
               <div className="career-role">
                 <h4>Research and Development Intern</h4>
                 <h5>
-                  Indian Institute of Technology     
-                    (IIT Bombay) - Mumbai
+                  Indian Institute of Technology
                 </h5>
               </div>
               <h3>2024</h3>
