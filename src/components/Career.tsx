@@ -34,7 +34,7 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Intern - Data & Market Intelligence</h4>
-                <h5>Mobility Aftermarket Pvt. Ltd.</h5>
+                <h5>Mobility Aftermarket Pvt. Ltd. - Bangalore</h5>
               </div>
               <h3>2024-25</h3>
             </div>
@@ -49,7 +49,7 @@ const Career = () => {
               <div className="career-role">
                 <h4>Research and Development Intern</h4>
                 <h5>
-                  Indian Institute of Technology
+                Indian Institute of Technology, Bombay — Mumbai
                 </h5>
               </div>
               <h3>2024</h3>
